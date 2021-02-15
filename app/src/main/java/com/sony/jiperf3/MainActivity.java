@@ -82,11 +82,11 @@ public class MainActivity extends AppCompatActivity {
 
         mRvOutput.setAdapter(adapter);
         // Checks the orientation of the screen
-        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            Toast.makeText(this, "landscape", Toast.LENGTH_SHORT).show();
-        } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
-            Toast.makeText(this, "portrait", Toast.LENGTH_SHORT).show();
-        }
+        // if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        //     Toast.makeText(this, "landscape", Toast.LENGTH_SHORT).show();
+        // } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
+        //     Toast.makeText(this, "portrait", Toast.LENGTH_SHORT).show();
+        // }
     }
 
     private void executeCommand(String command){
